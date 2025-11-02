@@ -24,6 +24,7 @@ PP3/
  ├── ListInterface.java
  ├── ListDoublyCircular.java
  ├── NodeDoubly.java
+ ├── .gitignore
  └── README.md
 ```
 
