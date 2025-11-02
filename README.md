@@ -7,15 +7,6 @@
 
 ---
 
-## Descripción general
-Esta práctica tiene como propósito familiarizarse con las estructuras de datos tipo **lista** en el lenguaje Java, específicamente implementando una **lista circular doblemente enlazada**.  
-El programa utiliza nodos con valores numéricos entre 0 y 9, generados aleatoriamente, para aplicar los métodos fundamentales de inserción y eliminación en ambas direcciones de la lista.
-
----
-
-## Objetivo
-Implementar los métodos `addFirst`, `addLast`, `removeFirst` y `removeLast` de la clase **ListDoublyCircular**, respetando las propiedades de una lista circular doblemente enlazada y garantizando la correcta actualización de las referencias `head` y `tail`.
-
 ---
 
 ## Estructura del repositorio
@@ -30,8 +21,7 @@ PP3/
 
 ---
 
-## Fuentes de apoyo consultadas
-Durante el desarrollo se revisaron los siguientes recursos:
+## Fuentes consultadas
 
 - [Documentación oficial de Oracle Java SE 21](https://docs.oracle.com/en/java/javase/21/)
 - [GeeksforGeeks – Doubly Circular Linked List](https://www.geeksforgeeks.org/doubly-circular-linked-list/)
@@ -57,13 +47,13 @@ La IA indicó que las listas creadas manualmente son útiles para el aprendizaje
 
 ---
 
-## Respuestas personales
+## Respuestas
 
-### 1. Estructura para una Cola (Queue)
+### 1. Si tuviera que implementar una estructura tipo Cola (Queue), ¿qué tipo de lista (simple, circular, doblemente enlazada o circular doblemente enlazada) utilizaría y por qué? ¿Y para una estructura tipo Pila (Stack)?
 Utilizaría una **lista circular doblemente enlazada**, ya que permite insertar elementos por un extremo (`addLast`) y eliminarlos por el otro (`removeFirst`) sin necesidad de recorrer la lista.  
 Esta estructura garantiza que las operaciones de encolado y desencolado sean eficientes (O(1)) y mantiene la conexión continua entre el primer y el último nodo.
 
-### 2. Estructura para una Pila (Stack)
+### ¿Cuál cree que podría ser una ventaja y una desventaja de utilizar una estructura de tipo lista creada por usted mismo, en vez de las opciones proveídas directamente por los módulos estándar de Java (como por ejemplo List)?
 Para una pila, emplearía una **lista simplemente enlazada**, ya que solo se requieren operaciones en un extremo (tipo LIFO: Last In, First Out).  
 Con una lista simple, la inserción y eliminación se realizan al inicio (`push` y `pop`) sin necesidad de mantener referencias dobles, optimizando memoria y simplicidad.
 
@@ -78,13 +68,3 @@ Con una lista simple, la inserción y eliminación se realizan al inicio (`push`
 - Requieren más tiempo de desarrollo y mantenimiento.  
 
 ---
-
-## Conclusión
-La práctica permitió comprender cómo se comportan las listas doblemente circulares en Java, reforzando el manejo de punteros, referencias y lógica de inserción y eliminación.  
-Además, ayudó a contrastar la implementación manual de estructuras con las opciones predefinidas del lenguaje, fomentando el aprendizaje profundo sobre la gestión dinámica de datos.
-
----
-
-**Fecha de elaboración:** Noviembre, 2025  
-**Versión de Java:** OpenJDK 21 (LTS)  
-**Autor:** Jesús Ignacio Álvarez Briceño
